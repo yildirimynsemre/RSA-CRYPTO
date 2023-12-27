@@ -52,7 +52,14 @@ namespace RSA005
                 {
                     var base64Encrypted = strText;
 
-                    // server decrypting data with private key                    
+                    // server decrypting data with private key            
+
+
+
+
+
+
+        
                     rsa.FromXmlString(privateKey);
 
                     var resultBytes = Convert.FromBase64String(base64Encrypted);
